@@ -1,0 +1,190 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    background-image: url(images/Web.png);
+    background-size: 110%;
+    margin: 0%;
+}
+h{
+    color: #1e6254;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.main-container{
+    padding: 2rem;
+    display: ;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    justify-content: flex-end;
+    display: flex;
+    font-family: "Grover";
+}
+.nav ul li{
+    list-style: none;
+    color: white;
+    font-size: 1.5rem;
+    align-items: center;
+    display: flex;
+    margin-left: 2rem;
+}
+a{
+    text-decoration: none;
+}
+.nav button{
+    color: white;
+    background-color: #91F086;
+    border: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+}
+#top{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: "EzraBlack";
+    font-size: 300%;
+
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: "EzraBlack";
+    font-size: 150%;
+
+}
+p1{
+    font-family: "grover";
+    font-size: 150%;
+}
+h2{
+    color:#91F086;
+    font-family: "EzraBlack";
+    text-align: center;
+    font-size: 150%;
+    padding: 1rem;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25rem;
+    align-items: center;
+}
+.services p{
+    padding-left: 20rem;
+    padding-right:20rem;
+}
+.main-container{
+    position: relative;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+}
+.nav2{
+    display: none;
+}
+#card2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img{
+    padding-bottom: 1rem;
+}
+.card p{
+padding-left: 3rem;
+padding-right: 3rem;
+padding-bottom: 3rem;
+}
+#serv{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    padding-top: 20rem;
+
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bttm{
+    position: absolute;
+    top: 110%;
+}
+#social{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 3rem;
+    color: white;
+}
+
+#social1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#social2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    padding-top: 5rem;
+}
+
+.bubble{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-left: 20rem !important;
+    margin-right: 20rem !important;
+    margin: 3rem;
+}
+.bubble h1,h2{
+    text-align: center !important;
+}
+.bubble h1{
+    font-size: 250%;
+}
