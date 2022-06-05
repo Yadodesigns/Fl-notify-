@@ -1,0 +1,60 @@
+@media only screen and (max-width:1600px){
+    #card1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card p{
+        padding: 0%;
+        padding-bottom: 2rem;
+    }
+    #card2{
+        flex-direction: column;
+        align-items: center;
+    }
+    #card{
+        padding: 0%;
+    }
+    .card{
+        width: 100%;
+    }
+    #top img{
+        width: 100%;
+    }
+    #bottomlogo img{
+        width: 100%;
+    }
+    .nav{
+        display: none;
+    }
+    #burger{
+        display: block !important;
+    }
+    .services p{
+        padding: 0%;
+    }
+    #shape{
+        display: none !important;
+    }
+    body{
+        background-size: auto;
+    }
+    .top{
+        justify-content: center;
+    }
+    #top{
+        width: 100%;
+    }
+    .main-container{
+        padding: 0%;
+        display: none;
+    }
+    #sorry{
+        text-align: center;
+        font-size: 300%;
+        position: absolute;
+        top: 50%;
+        display: block !important;
+
+    }
+
+}
